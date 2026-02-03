@@ -9,14 +9,23 @@ Ce projet interroge les représentations latentes issues de données RNA-seq bul
 
 ## 2) Scripts: ￼
 	1.	1-QC_NN.ipynb — QC, filtrage gènes/échantillons, split train/test, standardisation, PCA, exports.
+	
 	2.	2- AE_NN.ipynb — entraînement AutoEncoder et extraction de l’espace latent.
+	
 	3.	3-MLP baseline.ipynb — MLP-Cox sur X_train (baseline).
+	
 	4.	4-MLP AE.ipynb — MLP-Cox sur Z_train (latent AE).
+	
 	5.	5-MLP_baseline_hyperparam.ipynb — variantes “LR sweep” (baseline).
+	
 	6.	6-MLP_AE_hyerparam.ipynb — variantes “LR sweep” (AE).
+	
 	7.	7-MLP_baseline_hyperparam_batch.ipynb — variantes “LR × batch” (baseline).
+	
 	8.	8-MLP_AE_hyerparam_batch.ipynb — variantes “LR × batch” (AE).
+	
 	9.	9-MLP_baseline_hyperparam_lr_on_plateau.ipynb — variantes “Reduce LR on plateau” (baseline).
+	
 	10.	10-MLP_AE_hyerparam_lr_on_plateau.ipynb — variantes “Reduce LR on plateau” (AE).
 
 ---
